@@ -1,4 +1,4 @@
-FROM amazoncorretto:17.0.8
+FROM adoptopenjdk/openjdk11:alpine-jre
 
 # Simply setting the artifact path
 ARG artifact=target/spring-boot-web.jar
